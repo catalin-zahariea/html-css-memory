@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RESET END */
+/* ----------------------------------------------------------- */
+/* COMMON */
+body {
+    font-family: "Nerko One", Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+.container {
+    width: 65;
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    padding: 35px;
+    color: darkblue;
+}
+/* COMMON END */
+/* ----------------------------------------------------------- */
+/* MAIN */
+
+/* MAIN END */
