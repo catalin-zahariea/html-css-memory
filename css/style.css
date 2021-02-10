@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-    width: 65;
+    width: 65%;
+    margin: auto;
 }
 
 h1{
@@ -30,6 +31,18 @@ h3 {
     text-align: center;
     padding: 35px;
     color: darkblue;
+}
+
+.row-card {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    background-color: white;
+    border-radius: 15px;
 }
 /* COMMON END */
 /* ----------------------------------------------------------- */
