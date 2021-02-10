@@ -38,14 +38,62 @@ h3 {
 }
 
 .card {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
     display: inline-block;
-    height: 200px;
+    height: 230px;
     width: 20%;
     background-color: white;
     border-radius: 15px;
+    padding: 25px;
+    margin: 5px;
+    position: relative;
 }
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.card-text {
+    display: none;
+    font-size: 24px;
+    color: orange;
+    text-shadow: 2px 2px grey;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
 /* COMMON END */
 /* ----------------------------------------------------------- */
 /* MAIN */
 
+.card img {
+    display: none;
+}
+
+.card .card-text {
+    display: none;
+}
+
+.card:hover {
+    background-image: none;
+}
+
+.card:hover div {
+    display: block;
+}
+
+.card:hover img {
+    display: block;
+}
+
+.container:nth-child(2) .row-card:nth-child(2) div {
+    display: block;
+}
+
+.container img:nth-of-type(6) {
+    display: block;
+}
 /* MAIN END */
