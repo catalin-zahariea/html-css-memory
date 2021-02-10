@@ -93,7 +93,17 @@ img {
     display: block;
 }
 
-.container img:nth-of-type(6) {
+.container .row-card:nth-of-type(2) .card:nth-of-type(2) img {
     display: block;
 }
+
+.container .row-card:nth-of-type(2) .card:nth-of-type(2) .card-text {
+    display: block;
+    color: hotpink;
+}
+
+.container .row-card:nth-of-type(2) .card:nth-of-type(2) {
+    background-image: none;
+} 
+
 /* MAIN END */
